@@ -398,13 +398,13 @@ header .container {
 }
 
 .clients-link:hover,
-.clients-title:focus {
+.clients-link:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
 
 .clients-link:hover .clients-icon,
-.clients-title:focus .clients-icon {
+.clients-link:focus .clients-icon {
   fill: var(--active-link-color);
 }
 
@@ -441,8 +441,12 @@ header .container {
 
 .footer .container {
   display: flex;
-  gap: 70px;
+  /* gap: 70px; */
   align-items: baseline;
+}
+
+.addres-block{
+  margin-right: 70px;
 }
 
 .follow-subtitle {
